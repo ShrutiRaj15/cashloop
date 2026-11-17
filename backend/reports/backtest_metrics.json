@@ -1,0 +1,63 @@
+{
+  "evaluation_period": "2026-10-01 to 2026-10-30",
+  "horizon_days": 30,
+  "businesses_evaluated": 4,
+  "metrics": {
+    "lgbm_wape_avg": 0.0478,
+    "naive_wape_avg": 0.0791,
+    "wape_improvement_pct": 39.6,
+    "lgbm_mape_avg_pct": 4.76,
+    "naive_mape_avg_pct": 7.49,
+    "p10_p90_interval_coverage_pct": 96.7
+  },
+  "per_business_results": [
+    {
+      "business_id": "biz_001",
+      "name": "Sharma Provision & Kirana Store",
+      "category": "kirana",
+      "wape_lgbm": 0.0469,
+      "wape_naive": 0.1848,
+      "wape_improvement_pct": 74.6,
+      "mape_lgbm": 4.46,
+      "mape_naive": 17.5,
+      "interval_coverage_pct": 100.0,
+      "danger_days_predicted": 0
+    },
+    {
+      "business_id": "biz_002",
+      "name": "Om Sai Super Mart",
+      "category": "kirana",
+      "wape_lgbm": 0.0499,
+      "wape_naive": 0.0742,
+      "wape_improvement_pct": 32.8,
+      "mape_lgbm": 5.0,
+      "mape_naive": 6.69,
+      "interval_coverage_pct": 100.0,
+      "danger_days_predicted": 0
+    },
+    {
+      "business_id": "biz_003",
+      "name": "Gupta Daily Needs",
+      "category": "kirana",
+      "wape_lgbm": 0.0335,
+      "wape_naive": 0.0178,
+      "wape_improvement_pct": -88.3,
+      "mape_lgbm": 3.33,
+      "mape_naive": 1.74,
+      "interval_coverage_pct": 100.0,
+      "danger_days_predicted": 30
+    },
+    {
+      "business_id": "biz_004",
+      "name": "Mahalaxmi Grocery Hub",
+      "category": "kirana",
+      "wape_lgbm": 0.0608,
+      "wape_naive": 0.0396,
+      "wape_improvement_pct": -53.3,
+      "mape_lgbm": 6.26,
+      "mape_naive": 4.01,
+      "interval_coverage_pct": 86.7,
+      "danger_days_predicted": 0
+    }
+  ]
+}

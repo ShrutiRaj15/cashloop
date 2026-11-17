@@ -1,0 +1,24 @@
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary / Scratch
+*.log
+strip_hindi.py
+frontend_src_backup/

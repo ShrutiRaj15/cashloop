@@ -1,0 +1,50 @@
+{
+  "simulation_period": "2026-08-01 to 2026-08-22 (Months 4 to 12)",
+  "msme_count": 2,
+  "weekly_metrics": [
+    {
+      "week_number": 2,
+      "date": "2026-08-08",
+      "wape": 0.112,
+      "wape_pct": 11.2,
+      "mape_pct": 19.2,
+      "drift_retrains": 1
+    },
+    {
+      "week_number": 3,
+      "date": "2026-08-15",
+      "wape": 0.1458,
+      "wape_pct": 14.58,
+      "mape_pct": 26.81,
+      "drift_retrains": 1
+    },
+    {
+      "week_number": 4,
+      "date": "2026-08-22",
+      "wape": 0.1424,
+      "wape_pct": 14.24,
+      "mape_pct": 18.58,
+      "drift_retrains": 1
+    }
+  ],
+  "error_trend": {
+    "initial_week_wape_pct": 13.34,
+    "final_week_wape_pct": 13.34,
+    "error_reduction_pct": null
+  },
+  "drift_retrains_triggered": 1,
+  "actions_summary": {
+    "total_recommendations_generated": 18,
+    "accepted_actions": 6,
+    "shortfall_averted": 0,
+    "shortfall_mitigated": 0,
+    "action_success_rate_pct": 0.0
+  },
+  "crunch_detection": {
+    "total_injected_crunches": 1,
+    "crunches_caught_early": 0,
+    "crunches_missed": 1,
+    "early_warning_rate_pct": 0.0
+  },
+  "interval_coverage_pct": 64.3
+}
